@@ -1,15 +1,24 @@
-let nota = parseFloat(prompt("Digite sua nota"));
+let nota = parseFloat(prompt("digite sua nota"))
 
-if (!isNaN(nota)) {
-    if (nota >= 7) {
-        alert("Voce foi aprovado");
-    } else {
-        if (nota >= 5) {
-            alert("Voce esta de recuperacao");
-        } else {
-            alert("Voce foi reprovado");
+if (nota >=6 && nota <=10){
+    alert("voce foi aprovado")
+}else{
+    if(nota >0 && nota<6){
+        alert("voce esta de recuperacao")
+    }else{
+        if (nota <=0){
+            alert("voce foi reprovado")
         }
     }
-} else {
-    alert("Por favor, digite uma nota valida");
 }
+
+
+
+
+
+
+
+
+
+
+
